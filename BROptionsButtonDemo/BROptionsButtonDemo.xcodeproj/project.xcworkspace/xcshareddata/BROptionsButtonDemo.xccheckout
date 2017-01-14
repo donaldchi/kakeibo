@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E629E9D6-73CC-4940-8D0A-C81438A5682C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BROptionsButtonDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>131945C948521642679F2DED38472A38BFB1E26F</key>
+		<string>https://github.com/BasheerSience/BROptionsButton.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BROptionsButtonDemo/BROptionsButtonDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>131945C948521642679F2DED38472A38BFB1E26F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BasheerSience/BROptionsButton.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>131945C948521642679F2DED38472A38BFB1E26F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>131945C948521642679F2DED38472A38BFB1E26F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BROptionsButton</string>
+		</dict>
+	</array>
+</dict>
+</plist>
