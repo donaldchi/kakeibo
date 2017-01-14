@@ -1,4 +1,5 @@
 #import "SecondVC.h"
+#import <AFNetworking/AFNetworking.h>
 
 @interface SecondVC () <UITextFieldDelegate>
 @end
@@ -15,6 +16,30 @@
 
 - (IBAction) sendImagePressed:(id)sender {
     LOG_CURRENT_METHOD;
+
+    UIImage *image = _receiptImage.currentBackgroundImage;  // name of the image
+    
+    NSData *imageData =  UIImagePNGRepresentation(image);  // convert your image into data
+    
+    NSString *urlString = [NSString stringWithFormat:@"http://35.166.133.39/cgi-bin/receiveReceipt.py"];  // enter your url to upload
+    
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];  // allocate AFHTTPManager
+    // ここでserializerをデフォルトから変更している。
+    manager.responseSerializer = [AFImageResponseSerializer serializer];
+    [manager POST:urlString parameters:nil constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {  // POST DATA USING MULTIPART CONTENT TYPE
+        [formData appendPartWithFileData:imageData
+                                    name:@"img"
+                                fileName:@"image.png" mimeType:@"image/png"];   // add image to formData
+        
+        [formData appendPartWithFormData:[@"sdsd" dataUsingEncoding:NSUTF8StringEncoding]
+                                    name:@"key1"];    // add your other keys !!!
+        
+    } progress:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+        NSLog(@"Response: %@", responseObject);    // Get response from the server
+    } failure:^(NSURLSessionDataTask *task, NSError *error) {
+        NSLog(@"Error: %@", error);   // Gives Error
+        
+    }];
 }
 
 

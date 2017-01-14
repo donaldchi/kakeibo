@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstVC : UIViewController
+@interface FirstVC : UIViewController <UISearchBarDelegate, UITableViewDelegate, UITableViewDataSource> {
+    UITableView *chargeView;
+}
 
 @end

@@ -18,7 +18,7 @@
 	// Do any additional setup after loading the view.
     BROptionsButton *brOption = [[BROptionsButton alloc] initWithTabBar:self.tabBar forItemIndex:1 delegate:self];
     self.brOptionsButton = brOption;
-    [brOption setImage:[UIImage imageNamed:@"Apple"] forBROptionsButtonState:BROptionsButtonStateNormal];
+    [brOption setImage:[UIImage imageNamed:@"input_main.png"] forBROptionsButtonState:BROptionsButtonStateNormal];
     [brOption setImage:[UIImage imageNamed:@"close"] forBROptionsButtonState:BROptionsButtonStateOpened];
 }
 
@@ -29,7 +29,13 @@
 }
 
 - (UIImage*)brOptionsButton:(BROptionsButton *)brOptionsButton imageForItemAtIndex:(NSInteger)index {
-    UIImage *image = [UIImage imageNamed:@"Apple"];
+    UIImage *image;
+    if(index == 0)
+        image = [UIImage imageNamed:@"write.png"];
+    else if (index ==1)
+        image = [UIImage imageNamed:@"tokei.png"];
+    else if (index ==2)
+        image = [UIImage imageNamed:@"camera.png"];
     return image;
 }
 

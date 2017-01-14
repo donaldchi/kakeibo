@@ -20,16 +20,20 @@
             </tabBar>
             <viewControllers>
                 <viewController id="Tjf-IM-GCi" customClass="FirstVC">
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="NyW-9Q-za2"/>
+                    <tabBarItem key="tabBarItem" title="" image="charge.png" badgeValue="支出" selectedImage="charge.png" id="NyW-9Q-za2" userLabel="charge"/>
                 </viewController>
                 <viewController id="0Na-ML-pRd" userLabel="Second" customClass="SecondVC">
-                    <tabBarItem key="tabBarItem" systemItem="contacts" id="K5f-0g-5tp"/>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="K5f-0g-5tp"/>
                 </viewController>
                 <viewController id="xX2-Id-sNE" userLabel="Third" customClass="ThirdVC">
-                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="ubA-9p-Rjg"/>
+                    <tabBarItem key="tabBarItem" title="" image="income.png" badgeValue="収入" id="ubA-9p-Rjg" userLabel="income"/>
                 </viewController>
             </viewControllers>
             <point key="canvasLocation" x="333" y="36"/>
         </tabBarController>
     </objects>
+    <resources>
+        <image name="charge.png" width="32" height="32"/>
+        <image name="income.png" width="32" height="32"/>
+    </resources>
 </document>

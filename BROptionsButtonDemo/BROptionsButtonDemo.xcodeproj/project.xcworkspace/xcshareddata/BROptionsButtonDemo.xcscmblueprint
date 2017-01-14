@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FAF1D68B8FA63EB11E19A5E34A13D20E06205E4F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FAF1D68B8FA63EB11E19A5E34A13D20E06205E4F" : 9223372036854775807,
+    "131945C948521642679F2DED38472A38BFB1E26F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E629E9D6-73CC-4940-8D0A-C81438A5682C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FAF1D68B8FA63EB11E19A5E34A13D20E06205E4F" : "kakeibo\/",
+    "131945C948521642679F2DED38472A38BFB1E26F" : "BROptionsButton"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BROptionsButtonDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BROptionsButtonDemo\/BROptionsButtonDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BasheerSience\/BROptionsButton.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "131945C948521642679F2DED38472A38BFB1E26F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:donaldchi\/kakeibo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FAF1D68B8FA63EB11E19A5E34A13D20E06205E4F"
+    }
+  ]
+}

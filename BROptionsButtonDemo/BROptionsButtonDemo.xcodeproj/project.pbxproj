@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62A2BAAB1D9CEF219661A938 /* Pods_BROptionsButtonDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CE3A67A655010A55DC6623 /* Pods_BROptionsButtonDemo.framework */; };
 		A36A533718CDBEC9006ECD2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36A533618CDBEC9006ECD2A /* Foundation.framework */; };
 		A36A533918CDBEC9006ECD2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36A533818CDBEC9006ECD2A /* CoreGraphics.framework */; };
 		A36A533B18CDBEC9006ECD2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36A533A18CDBEC9006ECD2A /* UIKit.framework */; };
@@ -31,6 +32,12 @@
 		A36A538418CDC18A006ECD2A /* BROptionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A538318CDC18A006ECD2A /* BROptionItem.m */; };
 		A36A538718CDC276006ECD2A /* Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = A36A538518CDC276006ECD2A /* Apple.png */; };
 		A36A538818CDC276006ECD2A /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = A36A538618CDC276006ECD2A /* close.png */; };
+		C211A4811E29DFA1009A3985 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = C211A47B1E29DFA1009A3985 /* camera.png */; };
+		C211A4821E29DFA1009A3985 /* charge.png in Resources */ = {isa = PBXBuildFile; fileRef = C211A47C1E29DFA1009A3985 /* charge.png */; };
+		C211A4831E29DFA1009A3985 /* income.png in Resources */ = {isa = PBXBuildFile; fileRef = C211A47D1E29DFA1009A3985 /* income.png */; };
+		C211A4841E29DFA1009A3985 /* input_main.png in Resources */ = {isa = PBXBuildFile; fileRef = C211A47E1E29DFA1009A3985 /* input_main.png */; };
+		C211A4851E29DFA1009A3985 /* tokei.png in Resources */ = {isa = PBXBuildFile; fileRef = C211A47F1E29DFA1009A3985 /* tokei.png */; };
+		C211A4861E29DFA1009A3985 /* write.png in Resources */ = {isa = PBXBuildFile; fileRef = C211A4801E29DFA1009A3985 /* write.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C430FC0C45C7DB380B9E333 /* Pods-BROptionsButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BROptionsButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BROptionsButtonDemo/Pods-BROptionsButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7253F0B84B02DC2B5CE171DB /* Pods-BROptionsButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BROptionsButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BROptionsButtonDemo/Pods-BROptionsButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		89CE3A67A655010A55DC6623 /* Pods_BROptionsButtonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BROptionsButtonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36A533318CDBEC9006ECD2A /* BROptionsButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BROptionsButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36A533618CDBEC9006ECD2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A36A533818CDBEC9006ECD2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +89,12 @@
 		A36A538518CDC276006ECD2A /* Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple.png; sourceTree = "<group>"; };
 		A36A538618CDC276006ECD2A /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		C211A4721E29C70D009A3985 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Define.h; path = ../Define.h; sourceTree = "<group>"; };
+		C211A47B1E29DFA1009A3985 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera.png; path = images/camera.png; sourceTree = "<group>"; };
+		C211A47C1E29DFA1009A3985 /* charge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charge.png; path = images/charge.png; sourceTree = "<group>"; };
+		C211A47D1E29DFA1009A3985 /* income.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = income.png; path = images/income.png; sourceTree = "<group>"; };
+		C211A47E1E29DFA1009A3985 /* input_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = input_main.png; path = images/input_main.png; sourceTree = "<group>"; };
+		C211A47F1E29DFA1009A3985 /* tokei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tokei.png; path = images/tokei.png; sourceTree = "<group>"; };
+		C211A4801E29DFA1009A3985 /* write.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = write.png; path = images/write.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +105,7 @@
 				A36A533918CDBEC9006ECD2A /* CoreGraphics.framework in Frameworks */,
 				A36A533B18CDBEC9006ECD2A /* UIKit.framework in Frameworks */,
 				A36A533718CDBEC9006ECD2A /* Foundation.framework in Frameworks */,
+				62A2BAAB1D9CEF219661A938 /* Pods_BROptionsButtonDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +122,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E4FC1A68DE50F68713DD880 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C430FC0C45C7DB380B9E333 /* Pods-BROptionsButtonDemo.debug.xcconfig */,
+				7253F0B84B02DC2B5CE171DB /* Pods-BROptionsButtonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A36A532A18CDBEC9006ECD2A = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +138,7 @@
 				A36A535518CDBEC9006ECD2A /* BROptionsButtonDemoTests */,
 				A36A533518CDBEC9006ECD2A /* Frameworks */,
 				A36A533418CDBEC9006ECD2A /* Products */,
+				4E4FC1A68DE50F68713DD880 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +158,7 @@
 				A36A533818CDBEC9006ECD2A /* CoreGraphics.framework */,
 				A36A533A18CDBEC9006ECD2A /* UIKit.framework */,
 				A36A534F18CDBEC9006ECD2A /* XCTest.framework */,
+				89CE3A67A655010A55DC6623 /* Pods_BROptionsButtonDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -138,14 +166,13 @@
 		A36A533C18CDBEC9006ECD2A /* BROptionsButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C211A4791E29DF71009A3985 /* images */,
 				A36A534518CDBEC9006ECD2A /* AppDelegate.h */,
 				A36A534618CDBEC9006ECD2A /* AppDelegate.m */,
 				C211A4721E29C70D009A3985 /* Define.h */,
 				A36A536A18CDBF77006ECD2A /* MainTabBar */,
 				A36A537E18CDC0C0006ECD2A /* BROptionsButton */,
 				A36A534818CDBEC9006ECD2A /* Images.xcassets */,
-				A36A538518CDC276006ECD2A /* Apple.png */,
-				A36A538618CDC276006ECD2A /* close.png */,
 				A36A533D18CDBEC9006ECD2A /* Supporting Files */,
 			);
 			path = BROptionsButtonDemo;
@@ -242,6 +269,21 @@
 			name = BROptionsButton;
 			sourceTree = "<group>";
 		};
+		C211A4791E29DF71009A3985 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C211A47B1E29DFA1009A3985 /* camera.png */,
+				C211A47C1E29DFA1009A3985 /* charge.png */,
+				C211A47D1E29DFA1009A3985 /* income.png */,
+				C211A47E1E29DFA1009A3985 /* input_main.png */,
+				C211A47F1E29DFA1009A3985 /* tokei.png */,
+				C211A4801E29DFA1009A3985 /* write.png */,
+				A36A538518CDC276006ECD2A /* Apple.png */,
+				A36A538618CDC276006ECD2A /* close.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,9 +291,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A36A535F18CDBEC9006ECD2A /* Build configuration list for PBXNativeTarget "BROptionsButtonDemo" */;
 			buildPhases = (
+				677B0D22C0C0F4D70AE19957 /* [CP] Check Pods Manifest.lock */,
 				A36A532F18CDBEC9006ECD2A /* Sources */,
 				A36A533018CDBEC9006ECD2A /* Frameworks */,
 				A36A533118CDBEC9006ECD2A /* Resources */,
+				B9394C17485248276312FB8D /* [CP] Embed Pods Frameworks */,
+				531718CAD04A52EE3695AD31 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -321,13 +366,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A36A537718CDBFFD006ECD2A /* SecondVC.xib in Resources */,
+				C211A4861E29DFA1009A3985 /* write.png in Resources */,
+				C211A4841E29DFA1009A3985 /* input_main.png in Resources */,
 				A36A538718CDC276006ECD2A /* Apple.png in Resources */,
 				A36A538818CDC276006ECD2A /* close.png in Resources */,
 				A36A536618CDBF01006ECD2A /* MainTabBarController.xib in Resources */,
+				C211A4811E29DFA1009A3985 /* camera.png in Resources */,
+				C211A4851E29DFA1009A3985 /* tokei.png in Resources */,
+				C211A4821E29DFA1009A3985 /* charge.png in Resources */,
 				A36A537018CDBFD6006ECD2A /* FirstVC.xib in Resources */,
 				A36A534118CDBEC9006ECD2A /* InfoPlist.strings in Resources */,
 				A36A537C18CDC012006ECD2A /* ThirdVC.xib in Resources */,
 				A36A534918CDBEC9006ECD2A /* Images.xcassets in Resources */,
+				C211A4831E29DFA1009A3985 /* income.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +391,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		531718CAD04A52EE3695AD31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BROptionsButtonDemo/Pods-BROptionsButtonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		677B0D22C0C0F4D70AE19957 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9394C17485248276312FB8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BROptionsButtonDemo/Pods-BROptionsButtonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A36A532F18CDBEC9006ECD2A /* Sources */ = {
@@ -427,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -459,7 +558,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -467,6 +566,7 @@
 		};
 		A36A536018CDBEC9006ECD2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C430FC0C45C7DB380B9E333 /* Pods-BROptionsButtonDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -482,6 +582,7 @@
 		};
 		A36A536118CDBEC9006ECD2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7253F0B84B02DC2B5CE171DB /* Pods-BROptionsButtonDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
