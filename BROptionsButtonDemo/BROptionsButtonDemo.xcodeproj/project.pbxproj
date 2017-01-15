@@ -38,6 +38,9 @@
 		C211A4841E29DFA1009A3985 /* input_main.png in Resources */ = {isa = PBXBuildFile; fileRef = C211A47E1E29DFA1009A3985 /* input_main.png */; };
 		C211A4851E29DFA1009A3985 /* tokei.png in Resources */ = {isa = PBXBuildFile; fileRef = C211A47F1E29DFA1009A3985 /* tokei.png */; };
 		C211A4861E29DFA1009A3985 /* write.png in Resources */ = {isa = PBXBuildFile; fileRef = C211A4801E29DFA1009A3985 /* write.png */; };
+		C2DC286D1E2AF769008381CE /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C2DC286C1E2AF769008381CE /* logo.png */; };
+		C2DC28831E2B9834008381CE /* ReceiptContents.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DC28811E2B9834008381CE /* ReceiptContents.m */; };
+		C2DC28861E2BA50D008381CE /* ReceiptContents.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DC28851E2BA50D008381CE /* ReceiptContents.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +98,10 @@
 		C211A47E1E29DFA1009A3985 /* input_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = input_main.png; path = images/input_main.png; sourceTree = "<group>"; };
 		C211A47F1E29DFA1009A3985 /* tokei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tokei.png; path = images/tokei.png; sourceTree = "<group>"; };
 		C211A4801E29DFA1009A3985 /* write.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = write.png; path = images/write.png; sourceTree = "<group>"; };
+		C2DC286C1E2AF769008381CE /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
+		C2DC28801E2B9834008381CE /* ReceiptContents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReceiptContents.h; path = "untitled folder/ReceiptContents.h"; sourceTree = "<group>"; };
+		C2DC28811E2B9834008381CE /* ReceiptContents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReceiptContents.m; path = "untitled folder/ReceiptContents.m"; sourceTree = "<group>"; };
+		C2DC28851E2BA50D008381CE /* ReceiptContents.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ReceiptContents.xib; path = "untitled folder/ReceiptContents.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,9 +248,12 @@
 		A36A537218CDBFE6006ECD2A /* SecondVC */ = {
 			isa = PBXGroup;
 			children = (
+				C2DC28851E2BA50D008381CE /* ReceiptContents.xib */,
 				A36A537318CDBFFD006ECD2A /* SecondVC.h */,
 				A36A537418CDBFFD006ECD2A /* SecondVC.m */,
 				A36A537518CDBFFD006ECD2A /* SecondVC.xib */,
+				C2DC28801E2B9834008381CE /* ReceiptContents.h */,
+				C2DC28811E2B9834008381CE /* ReceiptContents.m */,
 			);
 			name = SecondVC;
 			sourceTree = "<group>";
@@ -272,6 +282,7 @@
 		C211A4791E29DF71009A3985 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				C2DC286C1E2AF769008381CE /* logo.png */,
 				C211A47B1E29DFA1009A3985 /* camera.png */,
 				C211A47C1E29DFA1009A3985 /* charge.png */,
 				C211A47D1E29DFA1009A3985 /* income.png */,
@@ -376,8 +387,10 @@
 				C211A4821E29DFA1009A3985 /* charge.png in Resources */,
 				A36A537018CDBFD6006ECD2A /* FirstVC.xib in Resources */,
 				A36A534118CDBEC9006ECD2A /* InfoPlist.strings in Resources */,
+				C2DC286D1E2AF769008381CE /* logo.png in Resources */,
 				A36A537C18CDC012006ECD2A /* ThirdVC.xib in Resources */,
 				A36A534918CDBEC9006ECD2A /* Images.xcassets in Resources */,
+				C2DC28861E2BA50D008381CE /* ReceiptContents.xib in Resources */,
 				C211A4831E29DFA1009A3985 /* income.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A36A537B18CDC012006ECD2A /* ThirdVC.m in Sources */,
+				C2DC28831E2B9834008381CE /* ReceiptContents.m in Sources */,
 				A36A534718CDBEC9006ECD2A /* AppDelegate.m in Sources */,
 				A36A538118CDC106006ECD2A /* BROptionsButton.m in Sources */,
 				A36A536F18CDBFD6006ECD2A /* FirstVC.m in Sources */,

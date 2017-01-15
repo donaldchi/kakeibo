@@ -1,7 +1,9 @@
 
 #import "MainTabBarController.h"
 #import "BROptionsButton.h"
+#import "FirstVC.h"
 #import "SecondVC.h"
+#import "ThirdVC.h"
 
 @interface MainTabBarController ()<BROptionButtonDelegate, CommonDelegate>
 @property (nonatomic, strong) BROptionsButton *brOptionsButton;
@@ -20,7 +22,15 @@
     self.brOptionsButton = brOption;
     [brOption setImage:[UIImage imageNamed:@"input_main.png"] forBROptionsButtonState:BROptionsButtonStateNormal];
     [brOption setImage:[UIImage imageNamed:@"close"] forBROptionsButtonState:BROptionsButtonStateOpened];
+ 
+    UINavigationController *navi1 = [[UINavigationController alloc] initWithRootViewController:[[FirstVC alloc] init]];
+    UINavigationController *navi2 = [[UINavigationController alloc] initWithRootViewController:[[SecondVC alloc] init]];
+    UINavigationController *navi3 = [[UINavigationController alloc] initWithRootViewController:[[ThirdVC alloc] init]];
+//    NSArray *tabs = [NSArray navi1, navi2, navi3, nil];
+    NSArray *tabs = [NSArray arrayWithObjects: navi1, navi2, navi3, nil];
+    [self.tabBarController setViewControllers:tabs];
 }
+
 
 #pragma mark - BROptionsButtonState
 
@@ -30,12 +40,13 @@
 
 - (UIImage*)brOptionsButton:(BROptionsButton *)brOptionsButton imageForItemAtIndex:(NSInteger)index {
     UIImage *image;
-    if(index == 0)
+    if(index == 0) {
         image = [UIImage imageNamed:@"write.png"];
-    else if (index ==1)
+    } else if (index ==1) {
         image = [UIImage imageNamed:@"tokei.png"];
-    else if (index ==2)
+    } else if (index ==2) {
         image = [UIImage imageNamed:@"camera.png"];
+    }
     return image;
 }
 
